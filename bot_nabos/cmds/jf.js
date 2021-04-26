@@ -20,9 +20,9 @@ module.exports.run = async (client, message, args) => {
 }
 
 module.exports.config = {
-    name: "help",
+    name: "jf",
     description: "me cago en tus muertos",
-    usage: "//jf",
+    usage: "/jf",
     accessableby: "Members",
     aliases: ['jf']
 }
