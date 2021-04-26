@@ -24,5 +24,5 @@ module.exports.config = {
     description: "me cago en tus muertos",
     usage: "/jf",
     accessableby: "Members",
-    aliases: ['jf']
+    aliases: []
 }
