@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 const botconfig = require("../botsettings.json");
 
 module.exports.run = async (client, message, args) => {
-    let peineta = "　    　  lﾆヽ\n　    　 |= | \n　    　 |_ |\n　　/⌒|~ |⌒i-、\n　 /|　|　|　| ｜\n　｜(　(　(　(　｜\n　｜　　　　　 ｜\n　 ＼　　　　　/\n　　 ＼　　　 |";
+    let peineta = "⠀⠀⠀⠀⠀lﾆヽ\n　    　 |= | \n　    　 |_ |\n　　/⌒|~ |⌒i-、\n　 /|　|　|　| ｜\n　｜(　(　(　(　｜\n　｜　　　　　 ｜\n　 ＼　　　　　/\n　　 ＼　　　 |";
     message.channel.send(peineta);
 }
 
