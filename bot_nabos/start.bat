@@ -1,2 +1,2 @@
 @echo off
-node --trace-warnings server.js
+node --trace-warnings init.js
