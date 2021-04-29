@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 const botconfig = require("../botsettings.json");
 
 module.exports.run = async (client, message, args) => {
-    let arr = ["Abanto", "Abrazafarolas", "Adufe", "Alcornoque", "Alfeñique", "Andurriasmo", "Arrastracueros", "Artabán","Atarre", "Baboso", "Barrabás", "Barriobajero","Bebecharcos",
+    let arr = ["Abanto", "Abrazafarolas", "Adufe", "Alcornoque", "Alfeñique", "Andurriasmo", "Arrastracueros", "Artabán","Atarre", "Baboso", "Barrabás", "Barreplayas", "Barriobajero","Bebecharcos",
                "Bellaco", "Belloto","Berzotas", "Besugo", "Bobalicón", "Bocabuzón", "Bocachancla", "Bocallanta","Boquimuelle", "Borrico", "Botarate", "Brasas", "Cabestro", "Cabezaalberca",
                "Cabezabuque", "Cachibache", "Cafre", "Cagalindes","Cagarruta", "Calambuco","Calamidad", "Caldúo", "Calientahielos", "Calzamonas", "Cansalmas", "Cantamañanas", "Capullo",
                "Caracaballo", "Caracartón", "Caraculo","Caraflema", "Carajaula", "Carajote", "Carapapa", "Carapijo", "Cazurro", "Cebollino", "Cenizo", "Cenutrio", "Ceporro", "Cernícalo",
