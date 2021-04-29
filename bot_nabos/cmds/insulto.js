@@ -19,7 +19,7 @@ module.exports.run = async (client, message, args) => {
                "Pitañoso","Pitofloro","Plomo","Pocasluces","Pollopera","Quitahipos","Rastrapajo", "Rebañasandías", "Revientabaules", "Ríeleches", "Robaperas","Sabandija", "Sacamuelas",
                "Sanguijuela","Sinentraero","Sinsustancia", "Sonajas", "Sonso","Soplagaitas", "Soplaguindas","Sosco", "Tagarote", "Tarado","Tarugo","Tiralevitas", "Tocapelotas","Tocho","Tolai",
                "Tontaco","Tontucio", "Tordo", "Tragaldabas", "Tuercebotas","Tunante", "Zamacuco", "Zambombo", "Zampabollos", "Zamugo", "Zángano", "Zarrapastroso", "Zascandil", "Zopenco",
-               "Zoquete","Zote", "Zullenco", "Zurcefrenillos"];
+               "Zoquete","Zote", "Zullenco", "Zurcefrenillos", "Bobo"];
     let res = Math.floor(Math.random() * (arr.length) ) + 1;
     message.channel.send(arr[res]);
 }
